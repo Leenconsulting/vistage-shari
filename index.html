@@ -163,14 +163,19 @@ section{padding:88px 0}
 .m.chair h3{color:var(--navy)}
 
 /* ---------- you ---------- */
-.you .panel{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.you .panel{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:center}
 .you .logo{background:#fff;border:1px solid var(--line);border-radius:20px;padding:38px 34px;box-shadow:var(--shadow);text-align:center}
 .you .logo img{margin:0 auto;width:100%;max-width:380px}
 .you .logo small{display:block;margin-top:16px;font-size:14px;color:var(--grey)}
 .you p{margin:0 0 14px}
-.you ul{margin:8px 0 0;padding:0;list-style:none}
-.you li{position:relative;padding-left:30px;margin:10px 0}
-.you li svg{position:absolute;left:0;top:3px;width:20px;height:20px;color:var(--navy)}
+.reasons{list-style:none;margin:6px 0 0;padding:0}
+.reasons li{display:grid;grid-template-columns:44px 1fr;gap:16px;padding:18px 0;border-bottom:1px solid #edf1f3}
+.reasons li:first-child{padding-top:4px}
+.reasons li:last-child{border-bottom:0}
+.reasons .rn{width:40px;height:40px;border-radius:50%;background:var(--amber);color:var(--navy-deep);font-weight:800;font-size:18px;display:flex;align-items:center;justify-content:center}
+.reasons b{display:block;color:var(--navy-deep);font-size:19px;margin:6px 0 4px}
+.reasons p{margin:0;font-size:16.5px}
+.you .aside{margin:14px 0 0 60px;font-weight:600;color:var(--navy)}
 
 /* ---------- contact ---------- */
 .contact{background:#111417;color:#fff;position:relative;overflow:hidden}
@@ -278,7 +283,7 @@ footer a{color:rgba(255,255,255,.8)}
     <div class="txt">
       <span class="kicker on-dark">A note for Shari Clark · Bin Manager</span>
       <h1>Hi Shari<span>.</span></h1>
-      <p class="intro">I put this page together so you can get a feel for who I am, the businesses I run, and the group of Perth business owners I chair through Vistage.</p>
+      <p class="intro">The team at Vistage suggested we connect, so I put this page together to give you a feel for who I am, the businesses I run, and the group of Perth business owners I chair.</p>
       <p class="intro">Have a scroll. If anything sparks a question, I'd love to hear from you.</p>
       <div class="sig">
         <b>Lincoln (Linc) Elliot</b>
@@ -403,7 +408,7 @@ footer a{color:rgba(255,255,255,.8)}
     <span class="kicker">The group</span>
     <h2>A confidential board of peers who've got your back.</h2>
     <div class="rule"></div>
-    <p class="lede">Running a business can be lonely. The group gives you a room of experienced owners and CEOs, none of them competitors, who will ask the hard questions, share what's worked for them, and hold you to what you said you'd do.</p>
+    <p class="lede">You'll know the Vistage format well. Ours is a room of experienced owners and CEOs, none of them competitors, who ask the hard questions, share what's worked for them, and hold each other to what they said they'd do.</p>
 
     <div class="stats">
       <div class="stat"><div class="n">11</div><div class="l">members today, building toward around 14</div></div>
@@ -480,15 +485,15 @@ footer a{color:rgba(255,255,255,.8)}
       <small>All-in-one waste and bin management software · Booragoon, WA</small>
     </div>
     <div>
-      <span class="kicker">Why I thought of you</span>
-      <h2>Bin Manager would bring something new to the room.</h2>
+      <span class="kicker">Why you</span>
+      <h2>Why I feel you'd be a good fit.</h2>
       <div class="rule"></div>
-      <p>A Perth-built software business that runs whole operations for the waste industry, from skip bins and tips to scrap metal and commercial collections. No one in the group competes with you, and several members run the kind of field-based operations your customers do.</p>
-      <ul>
-        <li><svg><use href="#i-check"/></svg>A sounding board for the decisions you'd normally make alone</li>
-        <li><svg><use href="#i-check"/></svg>Owners who have already scaled teams, systems and sales, sharing what worked</li>
-        <li><svg><use href="#i-check"/></svg>Monthly time out of the business to work on it, with someone holding you to it</li>
-      </ul>
+      <ol class="reasons">
+        <li><span class="rn">1</span><div><b>You know what Vistage can do</b><p>You've been in a Vistage group before, so you know the value when the group is right. When the Vistage team recommended you to me, that was the first thing that stood out.</p></div></li>
+        <li><span class="rn">2</span><div><b>We share a business focus</b><p>You run a software platform built for an industry, and I'm building one with Leen. Product, pricing, growth and customers are on both our desks, so I understand the decisions you're weighing.</p></div></li>
+        <li><span class="rn">3</span><div><b>The room would value your perspective</b><p>Technology is a live question for most of the group, from systems rollouts to digital growth. And waste, bins and site logistics touch several members' operations, from building sites to manufacturing yards and commercial cleaning. You'd see things they don't.</p></div></li>
+      </ol>
+      <p class="aside">And no one in the group competes with Bin Manager.</p>
     </div>
   </div>
 </section>
